@@ -95,24 +95,24 @@ namespace _3Martie
                 textBox2.Text = "5 val id.";
             else
             {
-                if (((a == b) && (a == c) && (a == d)) && ((b == c) && (b == d) && (b == e_)))
+                if (((a == b) && (a == c) && (a == d)) || ((b == c) && (b == d) && (b == e_)))
                     textBox2.Text = "4 val id.";
                 else
                 {
-                    if (((a == b) && (a == c) && (d == e_))&&((a == b) && (c == d) && (c == e_)))
+                    if (((a == b) && (a == c) && (d == e_))||((a == b) && (c == d) && (c == e_)))
                         textBox2.Text = "3 val id. + 2 val id.";
                     else
                     {
-                        if (((a == b) && (a == c))&&((b == c) && (b == d))&&((c == d) && (c == e_)))
+                        if (((a == b) && (a == c))||((b == c) && (b == d))||((c == d) && (c == e_)))
                             textBox2.Text = "3 val id.";
                         else
                         {
                             
-                            if (((a == b) && (c == d))&&((a == b) && (d == e_))&&((b == c) && (d == e_)))
+                            if (((a == b) && (c == d))||((a == b) && (d == e_))||((b == c) && (d == e_)))
                                 textBox2.Text = "2 val id. + 2 val id.";
                             else
                             {
-                                if ((a == b)&&(b == c)&&(c == d)&&(d == e_))
+                                if ((a == b)||(b == c)||(c == d)||(d == e_))
                                     textBox2.Text = "2 val id.";
                                 else
                                     textBox2.Text = "nimic";
