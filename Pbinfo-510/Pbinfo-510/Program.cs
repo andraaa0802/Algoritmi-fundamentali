@@ -53,7 +53,7 @@ namespace Pbinfo_510
             else if (v%2==0) return false;
             else
             {
-                for (int i = 3; i * i < v; i += 2)
+                for (int i = 3; i * i <= v; i += 2)
                     if (v % i == 0) return false;
             }
             return true;
