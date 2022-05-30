@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>val_min_de_pe_linie_si_coloana</RootNamespace>
+  </PropertyGroup>
+
+</Project>
