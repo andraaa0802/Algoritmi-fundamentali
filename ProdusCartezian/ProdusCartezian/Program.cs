@@ -7,8 +7,8 @@ namespace ProdusCartezian
         static void Main(string[] args)
         {
             int n = 7;
-            int[] s=new int[n];
-            bool[] b=new bool[n];
+            int[] s=new int[n+1];
+            bool[] b=new bool[n+1];
             //BK1(0, n, s);
             //BK2(0, n, s);
             //BK3(0, n, s, b);
